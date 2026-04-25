@@ -1,6 +1,17 @@
+.# Environment
 .env
+
+# ChromaDB
+chroma_db/
+
+# Python
 __pycache__/
 *.pyc
-venv/
-.venv/
-node_modules/
+*.pyo
+
+# Database
+hr_database.db
+*.db
+
+# Version file
+0.40.0
